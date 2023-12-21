@@ -17,7 +17,8 @@ https://github.com/CUBELeonwang/FNO-3DUM/assets/67432536/73a7923a-1df2-4307-a473
 
 [**Download full dataset**](https://www.kaggle.com/datasets/shaoxiangqin/cityffd-3d-urban-wind-simulation-niigata)
 
-The dataset of 3D urban wind simulation data of Niigata is generated from CityFFD. A total of 1200 steps of wind simulation were executed. The dataset contains four wind directions of data. Data for the _west_ and _north_ winds include _all 1200_ simulation steps. Data for the _east_ and _south_ winds include the _last 50_ steps of the simulation. Each step of the data is a _200 * 200 * 150_ array with 32-bit precision and is stored as a numpy file.
+The dataset of 3D urban wind simulation data of Niigata is generated from CityFFD. A total of 1200 steps of wind simulation were executed. The dataset contains four wind directions of data. Data for the west and north winds include all 1200 simulation steps. Data for the east and south winds include the last 50 steps of the simulation. Each step of the data is a 200 * 200 * 150 array with 32-bit precision and is stored as a numpy file.
+
 
 ## Model training and testing
 
@@ -29,3 +30,16 @@ To train the FNO model, execute the `train_fno.py`. Within the configs section o
 
 The implementation is based on the work of Li et al.:
 https://github.com/neuraloperator/neuraloperator/tree/master
+
+
+## Citation
+```
+@article{peng2023fourier,
+  title={Fourier neural operator for real-time simulation of 3D dynamic urban microclimate},
+  author={Peng, Wenhui and Qin, Shaoxiang and Yang, Senwen and Wang, Jianchun and Liu, Xue and Wang, Liangzhu Leon},
+  journal={Building and Environment},
+  pages={111063},
+  year={2023},
+  publisher={Elsevier}
+}
+```
