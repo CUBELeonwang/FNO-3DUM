@@ -16,5 +16,15 @@ https://authors.elsevier.com/a/1iAqO1HudNBsbT
 
 **Download original training data**
 
-https://github.com/CUBELeonwang/FNO-3DUM/assets/67432536/68ba3cfb-3202-4bab-870a-9fa737c9406c
+
+
+**Visualization**
+
+
+https://github.com/CUBELeonwang/FNO-3DUM/assets/67432536/73a7923a-1df2-4307-a473-cb0ea46084b9
+
+
+
+
+
 
